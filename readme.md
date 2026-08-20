@@ -49,10 +49,10 @@ Based on where an incumbent falls within the standardized quadrants, the engine 
 ## 📂 Project Structure
 
 ```text
-├── app.py                  # Streamlit application entry point
-├── rx_app.py               # Reflex application UI layout
-├── strategy_engine.py      # Core Z-score & CVS logic mathematical module
-├── unified_ingestion.py    # Hybrid HTML scraper & PDF compliance parser
-├── sentiment_engine.py    # Reddit, RSS, and X text analysis using FinBERT
-├── requirements.txt        # Managed project dependencies
-└── README.md               # Repository documentation
+├── Dashboard.py             # Streamlit application entry point
+├──setup.py                  # uniform file importing resource file
+├── strategy_n_CVS.py        # Core Z-score & CVS logic mathematical module
+├── unified_ingestion.py     # Hybrid HTML scraper & PDF compliance parser
+├── sentimental_analysis.py  # Reddit, RSS, and X text analysis using FinBERT
+├── requirements.txt         # Managed project dependencies
+└── README.md                # Repository documentation
